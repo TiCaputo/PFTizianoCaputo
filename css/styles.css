@@ -14,10 +14,6 @@ footer {
   color: gray;
 }
 
-body {
-  background-image: url(..png/assets/img/cafefondo.png);
-}
-
 form {
   width: 450px;
   margin: auto;
@@ -131,6 +127,7 @@ textarea {
 
 .inicio {
   font-family: garamond;
+  background-color: gainsboro;
 }
 .inicioTitulo {
   padding: 2rem;
@@ -165,6 +162,7 @@ textarea {
 }
 
 .tienda {
+  background-color: gainsboro;
   font-family: garamond;
 }
 .tiendaInicio {
@@ -177,6 +175,7 @@ textarea {
 }
 
 .panaderia {
+  background-color: gainsboro;
   font-family: garamond;
 }
 .panaderiaInicio {
@@ -214,6 +213,7 @@ textarea {
 }
 
 .nosotros {
+  background-image: url(/assets/img/cafefondo.png);
   font-family: garamond;
 }
 .nosotrosInicio {
@@ -228,6 +228,7 @@ textarea {
 }
 
 .contacto {
+  background-image: url(/assets/img/cafefondo.png);
   font-family: garamond;
 }
 .contactoInicio {
