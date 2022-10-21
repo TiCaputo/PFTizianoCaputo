@@ -1,0 +1,46 @@
+.button{
+    border: 2px solid gainsboro;
+    background-color: gainsboro;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+
+        &:hover {
+            border: 2px solid gainsboro;
+            background-color: black;
+            color: gainsboro;
+          }
+  }
+
+
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.colorIcon{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+#botonForms{
+    padding: 20px;
+    &:hover{
+       background: black;
+       color: gainsboro; 
+    }
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}

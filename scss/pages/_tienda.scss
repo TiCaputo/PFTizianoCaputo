@@ -1,0 +1,11 @@
+.tienda{
+    font-family: garamond;
+    &Inicio{
+        padding-top: 2rem;
+        text-align: center;
+    }
+    &Parrafo{
+        text-align: center;
+        font-size: 20px;
+    }
+}

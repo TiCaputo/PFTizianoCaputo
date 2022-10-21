@@ -1,0 +1,245 @@
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+}
+
+.footerInicio {
+  text-align: center;
+  color: gainsboro;
+}
+
+.navbarFont {
+  font-family: garamond;
+  color: gray;
+}
+
+body {
+  background-image: url(/assets/img/cafefondo.png);
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  margin-bottom: 5rem;
+  background-color: black;
+  padding: 30px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.tituloForms {
+  color: gainsboro;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.button {
+  border: 2px solid gainsboro;
+  background-color: gainsboro;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+  border: 2px solid gainsboro;
+  background-color: black;
+  color: gainsboro;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.colorIcon {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+#botonForms {
+  padding: 20px;
+}
+#botonForms:hover {
+  background: black;
+  color: gainsboro;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+.alineadoTarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 25px;
+}
+
+.tarjeta {
+  margin: 2rem;
+  padding: 15px;
+  font-family: Garamond;
+  color: gainsboro;
+  border: 2px solid gainsboro;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 1px 10px gainsboro;
+  cursor: default;
+  transition: all 400ms ease;
+}
+.tarjeta:hover {
+  box-shadow: 5px 5px 20px black;
+  transform: translateY(-3%);
+}
+.tarjetaTitulo {
+  text-align: center;
+}
+.tarjetaParrafo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.inicio {
+  font-family: garamond;
+}
+.inicioTitulo {
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+.inicioSubtitulo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: black;
+}
+.inicioParrafos {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1400px) {
+  .inicio .inicioParrafos {
+    flex-direction: column;
+  }
+}
+.inicioBeneficios {
+  text-align: center;
+}
+.inicioBeneficiosTitulo {
+  color: brown;
+}
+.inicioBeneficiosParrafo {
+  font-size: 20px;
+  color: black;
+  padding: 2rem;
+}
+
+.tienda {
+  font-family: garamond;
+}
+.tiendaInicio {
+  padding-top: 2rem;
+  text-align: center;
+}
+.tiendaParrafo {
+  text-align: center;
+  font-size: 20px;
+}
+
+.panaderia {
+  font-family: garamond;
+}
+.panaderiaInicio {
+  padding-top: 2rem;
+  text-align: center;
+}
+.panaderiaParrafo {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.panaderiaInfo {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  margin: 2rem;
+}
+@media (max-width: 800px) {
+  .panaderia .panaderiaInfo {
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.panaderiaTitulo {
+  font-size: 45px;
+}
+.panaderiaTexto {
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+}
+
+.nosotros {
+  font-family: garamond;
+}
+.nosotrosInicio {
+  padding-top: 2rem;
+  text-align: center;
+}
+.nosotrosParrafo {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contacto {
+  font-family: garamond;
+}
+.contactoInicio {
+  text-align: center;
+  padding-top: 2rem;
+}
+.contactoParrafo {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

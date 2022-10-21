@@ -1,0 +1,49 @@
+
+.inicio{
+    font-family: garamond;
+    &Titulo {
+        padding: 2rem;
+        text-align: center;
+        color: black;
+    }
+
+    
+    &Subtitulo {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    
+        color: black;
+    }
+    &Parrafos {
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    
+    @media (max-width: 1400px) {
+        .inicioParrafos {
+            flex-direction: column;
+        }
+    }
+
+    &Beneficios {
+        text-align: center;
+    
+    }
+    
+    &BeneficiosTitulo {
+    
+        color: brown;
+    }
+
+
+    &BeneficiosParrafo {
+        font-size: 20px;
+        color: black;
+        padding: 2rem;
+    }
+}
+
+
