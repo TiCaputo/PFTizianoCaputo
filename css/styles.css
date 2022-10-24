@@ -143,6 +143,7 @@ textarea {
 }
 .inicio {
   font-family: garamond;
+  background-image: url(../img/cafefondo.png);
   background-color: gainsboro;
 }
 .inicioTitulo {
@@ -178,6 +179,7 @@ textarea {
 }
 
 .tienda {
+  background-image: url(../img/cafefondo.png);
   background-color: gainsboro;
   font-family: garamond;
 }
@@ -193,6 +195,7 @@ textarea {
 }
 
 .panaderia {
+  background-image: url(../img/cafefondo.png);
   background-color: gainsboro;
   overflow: hidden;
   font-family: garamond;
@@ -234,6 +237,7 @@ textarea {
 }
 
 .nosotros {
+  background-image: url(../img/cafefondo.png);
   background-color: gainsboro;
   overflow: hidden;
   font-family: garamond;
@@ -257,7 +261,7 @@ textarea {
 
 .contacto {
   background-color: gainsboro;
-  background-image: url(/assets/img/cafefondo.png);
+  background-image: url(../img/cafefondo.png);
   font-family: garamond;
 }
 .contactoInicio {
