@@ -29,6 +29,10 @@
 .colorIcon{
     text-decoration: none;
     color: gainsboro;
+
+    &:hover{
+        color: rgb(190, 154, 106);
+    }
 }
 
 #botonForms{

@@ -27,6 +27,9 @@
   text-decoration: none;
   color: gainsboro;
 }
+.colorIcon:hover {
+  color: rgb(190, 154, 106);
+}
 
 #botonForms {
   padding: 20px;
