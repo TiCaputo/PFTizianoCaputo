@@ -122,6 +122,7 @@ form {
 }
 
 input, textarea {
+  background-color: gainsboro;
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -145,7 +146,7 @@ textarea {
   background-color: gainsboro;
 }
 .inicioTitulo {
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   color: black;
 }
@@ -181,12 +182,14 @@ textarea {
   font-family: garamond;
 }
 .tiendaInicio {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .tiendaParrafo {
   text-align: center;
   font-size: 20px;
+  padding-bottom: 2rem;
 }
 
 .panaderia {
@@ -195,7 +198,8 @@ textarea {
   font-family: garamond;
 }
 .panaderiaInicio {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .panaderiaParrafo {
@@ -203,6 +207,7 @@ textarea {
   font-size: 20px;
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-bottom: 2rem;
 }
 .panaderiaInfo {
   text-align: center;
@@ -234,7 +239,8 @@ textarea {
   font-family: garamond;
 }
 .nosotrosInicio {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .nosotrosParrafo {
@@ -251,11 +257,13 @@ textarea {
 
 .contacto {
   background-color: gainsboro;
+  background-image: url(/assets/img/cafefondo.png);
   font-family: garamond;
 }
 .contactoInicio {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 .contactoParrafo {
   text-align: center;
