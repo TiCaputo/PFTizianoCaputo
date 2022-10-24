@@ -30,3 +30,8 @@ textarea{
     max-width: 100%;
 }
 
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
