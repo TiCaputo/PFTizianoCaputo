@@ -88,6 +88,16 @@ footer {
   color: gainsboro;
 }
 
+.footerTitulo {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footerSubtitulo {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .navbarFont {
   font-family: garamond;
   color: gray;
