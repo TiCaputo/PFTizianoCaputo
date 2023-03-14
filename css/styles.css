@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
 }
+
 .button:hover {
   border: 2px solid gainsboro;
   background-color: black;
@@ -27,6 +28,7 @@
   text-decoration: none;
   color: gainsboro;
 }
+
 .colorIcon:hover {
   color: rgb(190, 154, 106);
 }
@@ -34,6 +36,7 @@
 #botonForms {
   padding: 20px;
 }
+
 #botonForms:hover {
   background: black;
   color: gainsboro;
@@ -68,13 +71,16 @@
   cursor: default;
   transition: all 400ms ease;
 }
+
 .tarjeta:hover {
   box-shadow: 5px 5px 20px black;
   transform: translateY(-3%);
 }
+
 .tarjetaTitulo {
   text-align: center;
 }
+
 .tarjetaParrafo {
   text-align: center;
   margin-top: 10px;
@@ -149,21 +155,25 @@ textarea {
   background-image: url(../img/cafefondo.png);
   background-color: gainsboro;
 }
+
 .inicioTitulo {
   padding: 3rem;
   text-align: center;
   color: black;
 }
+
 .inicioSubtitulo {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   color: black;
 }
+
 .inicioParrafos {
   display: flex;
   justify-content: center;
 }
+
 @media (max-width: 1400px) {
   .inicio .inicioParrafos {
     flex-direction: column;
@@ -172,9 +182,11 @@ textarea {
 .inicioBeneficios {
   text-align: center;
 }
+
 .inicioBeneficiosTitulo {
   color: brown;
 }
+
 .inicioBeneficiosParrafo {
   font-size: 20px;
   color: black;
@@ -186,11 +198,13 @@ textarea {
   background-color: gainsboro;
   font-family: garamond;
 }
+
 .tiendaInicio {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
+
 .tiendaParrafo {
   text-align: center;
   font-size: 20px;
@@ -203,11 +217,13 @@ textarea {
   overflow: hidden;
   font-family: garamond;
 }
+
 .panaderiaInicio {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
+
 .panaderiaParrafo {
   text-align: center;
   font-size: 20px;
@@ -215,6 +231,7 @@ textarea {
   padding-right: 5rem;
   padding-bottom: 2rem;
 }
+
 .panaderiaInfo {
   text-align: center;
   display: flex;
@@ -222,6 +239,7 @@ textarea {
   padding: 25px;
   margin: 2rem;
 }
+
 @media (max-width: 800px) {
   .panaderia .panaderiaInfo {
     padding: 0px;
@@ -233,6 +251,7 @@ textarea {
 .panaderiaTitulo {
   font-size: 45px;
 }
+
 .panaderiaTexto {
   font-size: 20px;
   color: black;
@@ -245,17 +264,20 @@ textarea {
   overflow: hidden;
   font-family: garamond;
 }
+
 .nosotrosInicio {
   padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
+
 .nosotrosParrafo {
   text-align: center;
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .nosotrosImg {
   width: 100%;
   border-radius: 15px;
@@ -267,11 +289,13 @@ textarea {
   background-image: url(../img/cafefondo.png);
   font-family: garamond;
 }
+
 .contactoInicio {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
+
 .contactoParrafo {
   text-align: center;
   font-size: 20px;
@@ -279,5 +303,8 @@ textarea {
   padding-right: 5rem;
   padding-bottom: 5rem;
 }
+
+/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.scss.map */
 
 /*# sourceMappingURL=styles.css.map */
